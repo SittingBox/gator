@@ -18,7 +18,7 @@ You will want to create a file named .gatorconfig.json in your home directory
 ```
 
 In the file you will put:
-```
+```json
 {
   "db_url": "postgres://username:password@localhost:5432/database?sslmode=disable"
 }
@@ -40,7 +40,7 @@ Replace <database-name> with the Postgres database name you created. It should m
 With that all complete you should be able to use the following commands:
 
 Register a user:
-``` sh
+```sh
 gator register <name>
 ```
 Add an RSS feed:
