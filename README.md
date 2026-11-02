@@ -10,11 +10,12 @@ Install Gator with:
 ```sh
 go install github.com/SittingBox/gator@latest
 ```
-You will want to create a file named
+## Config
 
-.gatorconfig.json
-
-in your home directory ``` ~/.gatorconfig.json```
+You will want to create a file named .gatorconfig.json in your home directory 
+```sh
+~/.gatorconfig.json
+```
 
 In the file you will put:
 ```
