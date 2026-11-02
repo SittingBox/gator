@@ -1,3 +1,5 @@
+# Gator
+
 ## Requirements: Go and Postgres installed
 
 #### A command-line RSS feed aggregator built with Go and Postgres.
@@ -12,10 +14,10 @@ You will want to create a file named
 
 .gatorconfig.json
 
-in your home directory ```~/.gatorconfig.json```
+in your home directory ``` ~/.gatorconfig.json```
 
 In the file you will put:
-```
+```sh
 {
   "db_url": "postgres://username:password@localhost:5432/database?sslmode=disable"
 }
@@ -26,7 +28,7 @@ Inside the .gatorconfig.json file, but you need to replace the ```username:passw
 
 Create your Postgres database, then run the SQL files in `sql/schema/` in numerical order:
 
-```
+```sh
 psql -d users.sql -f sql/schema/001_users.sql
 psql -d feeds.sql -f sql/schema/002_feeds.sql
 psql -d feeds_follow.sql -f sql/schema/003_feed_follows.sql
