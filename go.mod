@@ -1,4 +1,4 @@
-module github.com/SittingBox/blog_agg
+module github.com/SittingBox/gator
 
 go 1.27.2
 

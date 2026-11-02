@@ -13,7 +13,7 @@ import (
 
 	"fmt"
 
-	"github.com/SittingBox/blog_agg/internal/database"
+	"github.com/SittingBox/gator/internal/database"
 
 	"github.com/lib/pq"
 

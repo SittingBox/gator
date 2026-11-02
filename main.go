@@ -7,9 +7,9 @@ import (
 
 	"os"
 
-	"github.com/SittingBox/blog_agg/internal/config"
+	"github.com/SittingBox/gator/internal/config"
 
-	"github.com/SittingBox/blog_agg/internal/database"
+	"github.com/SittingBox/gator/internal/database"
 
 	_ "github.com/lib/pq"
 )
